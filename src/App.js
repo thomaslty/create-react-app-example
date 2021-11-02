@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 
 const App = () => {
-  const [testMsg, setTestMsg] = useState("");
-  useEffect(() => {
-    setTestMsg("testmsg2");
-  }, [setTestMsg]);
   return (
     <div className="App">
       <div>
