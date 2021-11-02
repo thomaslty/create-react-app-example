@@ -4,8 +4,10 @@ import "./App.css";
 import bg from "./asset/background.png";
 
 const App = () => {
-  const [testMsg, setTestMsg] = useState("testmsg");
-  useEffect(() => {});
+  const [testMsg, setTestMsg] = useState("");
+  useEffect(() => {
+    setTestMsg("testmsg2");
+  });
   return (
     <>
       <div className="App">
@@ -19,7 +21,7 @@ const App = () => {
       </div>
       <div>
         <p>{testMsg}</p>
-        <img src={bg} />
+        <img src={bg} alt="bg" />
       </div>
     </>
   );
