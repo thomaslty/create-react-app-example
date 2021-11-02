@@ -10,6 +10,15 @@
   min-height: 100vh;
 }
 
+.App-intro-container {
+  background-color: white;
+  text-align: center;
+}
+
+.App-progress-bar {
+  justify-content: center;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
