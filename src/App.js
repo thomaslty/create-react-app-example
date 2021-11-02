@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import bg from "../asset/background.png";
+import bg from "./asset/background.png";
 
 const App = () => {
   const [testMsg, setTestMsg] = useState("testmsg");
