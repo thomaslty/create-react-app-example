@@ -23,7 +23,7 @@ const App = () => {
         </button>
       </div>
       <div className="App-progress-bar">
-        <Line percent={percentage} strokeWidth="4" strokeColor="#D3D3D3" />
+        <Line percent={"12"} strokeWidth="4" strokeColor="#D3D3D3" />
       </div>
     </div>
   );
