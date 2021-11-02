@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./asset/background.png);
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .App-logo {
