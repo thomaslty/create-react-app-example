@@ -7,7 +7,7 @@ const App = () => {
   const [testMsg, setTestMsg] = useState("");
   useEffect(() => {
     setTestMsg("testmsg2");
-  });
+  }, [setTestMsg]);
   return (
     <>
       <div className="App">
