@@ -16,7 +16,7 @@ const App = () => {
           type="button"
           className="btn1"
           onclick={setPercentage(
-            percentage + 10 >= 100 ? percentage + 10 : percentage
+            percentage + 10 > 100 ? percentage : percentage + 10
           )}
         >
           +10
