@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Line } from "rc-progress";
+// import { Line } from "rc-progress";
 
 const App = () => {
   const [percentage, setPercentage] = useState(0);
@@ -23,7 +23,7 @@ const App = () => {
         </button>
       </div>
       <div className="App-progress-bar">
-        <Line percent={"12"} strokeWidth="4" strokeColor="#D3D3D3" />
+        {/* <Line percent={"12"} strokeWidth="4" strokeColor="#D3D3D3" /> */}
       </div>
     </div>
   );
